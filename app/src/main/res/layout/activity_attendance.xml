@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="#F8F9FA"
+    android:layoutDirection="rtl">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="تسجيل الحضور والغياب"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#1E3A8A"
+        android:layout_marginBottom="32dp" />
+
+    <Button
+        android:id="@+id/btnScanQr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📷 مسح QR Code للحضور السريع"
+        android:backgroundTint="#1E3A8A"
+        android:textColor="#FFFFFF"
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnManualAttendance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📝 تسجيل الحضور اليدوي"
+        android:backgroundTint="#10B981"
+        android:textColor="#FFFFFF"
+        android:padding="16dp"
+        android:textSize="16sp" />
+
+</LinearLayout>
