@@ -42,11 +42,13 @@
             android:name=".ui.attendance.AttendanceScreen"
             android:exported="false" />
 
-    </application>
-
-</manifest>
         <!-- شاشة المدفوعات -->
         <activity
             android:name=".ui.payments.PaymentsScreen"
             android:exported="false" />
+        <activity
+            android:name=".ui.reports.ReportsScreen"
+            android:exported="false" />
+</application>
 
+</manifest>
