@@ -45,3 +45,8 @@
     </application>
 
 </manifest>
+        <!-- شاشة المدفوعات -->
+        <activity
+            android:name=".ui.payments.PaymentsScreen"
+            android:exported="false" />
+
